@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+
+#container{
+	background-color: lightgray;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.item{
+	background-color: white;
+	box-sizing: border-box;
+	width: 150px;
+	height: 200px;
+	margin-top: 10px;
+	overflow: auto;
+}
+
+.item>ul{
+	list-style-type: none;
+}
+
+.item>h2{
+	text-align: center;
+	padding-top: 5px;
+}
+
+.item>ul>li{
+	padding: 5px;
+}
